@@ -28,13 +28,13 @@ echo "<table><tr><th>Id</th><th>Name</th><th>Type</th></tr>";
 while ($row = $result->fetch_assoc()) {
 	echo '<tr>';
 	echo "<td>".$row["seed_id"]."</td><td>";
-	echo "<a href=\"seed_libraries/viewlibrary.php?seed_id=".$row["seed_id"]."\">".$row["seed_name"]."</a>";
+	echo "<a href=\"viewlibrary.php?seed_id=".$row["seed_id"]."\">".$row["seed_name"]."</a>";
 	echo "</td><td>".$row["type"];		
 	echo '</tr>';
 }
 
 echo "</table>";
-echo "<a href=\"/seed_libraries/addnewseed.php\">Add a New Seed</a>";
+echo "<a href=\"addnewseed.php\">Add a New Seed</a>";
 
 
 ?>

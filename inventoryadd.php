@@ -22,7 +22,7 @@ if (isset($_POST['submit'])) { //check if the form has been submitted
 		if (!$result) {
 			die ("Database access failed: " . $conn->error);
 		} else {
-			$message = "<p class=\"message\">Successfully added seeds to your library!<br> Add more seeds or <a href=\"/seed_libraries/inventory.php\">Return to the Inventory Page</a></p>";
+			$message = "<p class=\"message\">Successfully added seeds to your library!<br> Add more seeds or <a href=\"/inventory.php\">Return to the Inventory Page</a></p>";
 	}
 }}
 ?>

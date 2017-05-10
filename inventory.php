@@ -32,7 +32,7 @@ while ($row = $result->fetch_assoc()) {
 }
 
 echo "</table>";
-echo "<a href=\"/seed_libraries/inventoryadd.php\">Add a new seed to your library</a>";
+echo "<a href=\"inventoryadd.php\">Add a new seed to your library</a>";
 ?>
 </body>
 </html>

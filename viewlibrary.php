@@ -24,7 +24,7 @@ if (isset($_GET['state'])) {
 					
 		}
 	}
-	echo "<p><a href=\"/seed_libraries/search.php\">Return to search page</a></p>";
+	echo "<p><a href=\"search.php\">Return to search page</a></p>";
 	
 } elseif (isset($_GET['seed_id'])) { 
     $seed_id = sanitizeMySQL($conn, $_GET['seed_id']);
@@ -42,11 +42,11 @@ if (isset($_GET['state'])) {
 					
 		}
 	}
-	echo "<p><a href=\"/seed_libraries/seedindex.php\">Return to seeds page</a></p>";
+	echo "<p><a href=\"seedindex.php\">Return to seeds page</a></p>";
 
 } else {
 	echo "No known library...";
-	echo "<p><a href=\"/seed_libraries/search.php\">Return to library search</a></p>";
+	echo "<p><a href=\"search.php\">Return to library search</a></p>";
 }
 include_once 'includes/footer.php';
 ?>

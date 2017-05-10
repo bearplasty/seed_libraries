@@ -8,8 +8,8 @@
 </head>
 <body>
 	<header>
-		<a href="/seed_libraries/index.php"><img src="images/farm1.jpg" width="900" height="229"></a>
-		<h2><a href="/seed_libraries/index.php">Home</a> <a href="/seed_libraries/search.php ">Seed-Libraries</a> <a href="/seed_libraries/inventory.php ">Inventory</a> <a href="/seed_libraries/seedindex.php ">Heirloom-Seeds</a> <a href="/seed_libraries/about.php">About</a></h2>
+		<a href="index.php"><img src="images/farm1.jpg" width="900" height="229"></a>
+		<h2><a href="index.php">Home</a> <a href="search.php ">Seed-Libraries</a> <a href="inventory.php ">Inventory</a> <a href="seedindex.php ">Heirloom-Seeds</a> <a href="about.php">About</a></h2>
 	<?php
 		if (isset($_SESSION['fname']) && isset($_SESSION['lname']) ) {
 		echo "<h3>Hello, ".$_SESSION['fname']." ".$_SESSION['lname'];
